@@ -8,17 +8,17 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     font-size: 20px;
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
 h1 {
     font-size: 2em;
-    margin-bottom: 20px; /* Add space under the title */
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 1.2em; /* Make the instruction text slightly larger than the base font size */
+    font-size: 1.2em;
 }
 
 input[type="text"] {
@@ -36,4 +36,19 @@ button {
     word-wrap: break-word;
     font-size: 1em;
     width: 100%;
+}
+
+/* Styles for screens that are 600px or less */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 95%; /* Increase the width of the container on small screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Decrease the size of the title on small screens */
+    }
+
+    input[type="text"], button {
+        font-size: 1.2em; /* Decrease the size of the input text and button text on small screens */
+    }
 }
