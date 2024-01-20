@@ -7,8 +7,33 @@ body {
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
 }
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Add space under the title */
+}
+
+p {
+    font-size: 1.2em; /* Make the instruction text slightly larger than the base font size */
+}
+
+input[type="text"] {
+    font-size: 1.5em;
+    width: 100%;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
 #output {
     white-space: pre-wrap;
     word-wrap: break-word;
+    font-size: 1em;
+    width: 100%;
 }
